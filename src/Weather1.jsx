@@ -5,9 +5,7 @@ const Weather1 = () => {
 
   const [city, setCity] = useState("");
 
-  const [load, setLoad] = useState(false);
-
-  const [error, setError] = useState("");
+  const [load, setLoad] = useState("");
 
   useEffect(() => {
     fetch(
