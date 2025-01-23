@@ -18,7 +18,7 @@ const Weather1 = () => {
       .catch((err) => {
         console.log("Failed To Load The Data");
       });
-  }, [city]);
+  }, []);
 
   return (
     <div>

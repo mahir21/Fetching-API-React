@@ -1,11 +1,12 @@
 import React from "react";
-import Weather from "./Weather";
+
 import Weather1 from "./Weather1";
+import Weather2 from "./Weather2";
 
 const App = () => {
   return (
     <div>
-      <Weather1></Weather1>
+      <Weather2></Weather2>
     </div>
   );
 };
